@@ -12,9 +12,9 @@ const Home = () => {
 
   const person = (x, i) => (
     <div key={x.id.value}>
-      <h1>{x.gender}</h1>
-      <h1>{x.name.first}</h1>
-      <h1>{x.name.last}</h1>
+      <h4>{x.gender}</h4>
+      <h4>{x.name.first}</h4>
+      <h4>{x.name.last}</h4>
       <img src={x.picture.medium} />
     </div>
   );
